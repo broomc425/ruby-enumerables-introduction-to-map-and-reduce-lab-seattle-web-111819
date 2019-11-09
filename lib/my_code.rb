@@ -3,11 +3,12 @@ def map_to_negativize(source_array)
   new = []
   i = 0
   while i < source_array.length do
-    new.push(source_array[i] * -1)
+    new.push( source_array[i] * -1 ) # <== Unique work
     i += 1
   end
   return new
 end
+
 
 def map_to_no_change(source_array)
   source.array.map { |x| x}
