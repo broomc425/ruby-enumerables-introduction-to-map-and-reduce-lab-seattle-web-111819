@@ -9,9 +9,11 @@ def map_to_negativize(source_array)
   return new
 end
 
-
 def map_to_no_change(source_array)
-  source.array.map { |x| x}
+  new = []
+  i = 0
+  while i < source_array.length do
+    new.push(source_array[i] * )
 end
 
 def map_to_double(source_array)
